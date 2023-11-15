@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.top{
+    width: 1920px;
+    height: 80px;
+    background: #AA0601;
+}
+.header{
+    height: 787px;
+}
+
+.box{
+    width: 1920px;
+    height: 488px;
+    background: #FBF2F2 0% 0% no-repeat padding-box;
+}
+.text{
+    margin-left: 696px;
+    padding-top: 80px;
+    font: var(--unnamed-font-style-normal) normal bold 48px/72px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: left;
+    font: normal normal bold 48px/72px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside h1{
+    font-size: 24px;
+    color: #650300;
+}
+.a1{
+    width: 306px;
+    height: 36px;
+    font: var(--unnamed-font-style-normal) normal bold 24px/36px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal bold 24px/36px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.title{
+    width: 416px;
+    height: 72px;
+    margin-top: 80px;
+    margin-left: 752px;
+    margin-bottom: 48px;
+    font: var(--unnamed-font-style-normal) normal bold 48px/72px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal bold 48px/72px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.inside2{
+    margin-left: 300px;
+    width: 1296px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text2{
+    width: 416px;
+    height: 72px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-aa0601);
+    text-align: center;
+    font: italic normal 900 48px/72px Roboto;
+    letter-spacing: 0px;
+    color: #AA0601;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 80px;
+}
+
+.box2{
+    width: 1920px;
+    height: 608px;
+}
+
+.title2{
+    margin-top: 80px;
+    margin-left: 805px;
+}
