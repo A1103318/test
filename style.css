@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,101 +42,179 @@ table {
 	border-spacing: 0;
 }
 
-.top{
-    width: 1920px;
-    height: 80px;
-    background: #AA0601;
+
+a{
+	text-decoration: none;
+	box-sizing: border-box;
+	line-height: 1.5;
+	color: black;
 }
-.header{
-    height: 787px;
+p, h4{
+	line-height: 1.5;
+	font-size: 20px;
+}
+h1, h2, h3{
+	line-height: 1.2;
+}
+img{
+	display: block;
 }
 
-.box{
-    width: 1920px;
-    height: 488px;
-    background: #FBF2F2 0% 0% no-repeat padding-box;
+.text-hide {
+	text-indent: 101%;
+	white-space: nowrap;
+	overflow: hidden;
 }
-.text{
-    margin-left: 696px;
-    padding-top: 80px;
-    font: var(--unnamed-font-style-normal) normal bold 48px/72px var(--unnamed-font-family-source-han-sans-tw);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-650300);
-    text-align: left;
-    font: normal normal bold 48px/72px Source Han Sans TW;
-    letter-spacing: 0px;
-    color: #650300;
-    text-transform: uppercase;
-    opacity: 1;
+.bg-logo {
+	background-image: url('d’Perfume.png');
+	height: 38px;
+	margin-bottom: 9px;
+	margin-top: 9px;
 }
-.inside{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.d-block {
+	display: block;
 }
 
-.inside h1{
-    font-size: 24px;
-    color: #650300;
+.menu{
+	display: flex;
+	flex-direction: row;
+	font-size: 20px;
+	align-self: center;
 }
-.a1{
-    width: 306px;
-    height: 36px;
-    font: var(--unnamed-font-style-normal) normal bold 24px/36px var(--unnamed-font-family-source-han-sans-tw);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-650300);
+.menu li{
+	margin-left: 32px;
+}
+.menu li:hover{
+	border-bottom: 1px solid #8d8d8d;
+}
+.menu li a{
+	color: #8d8d8d;
+	height: 100%;
+}
+
+.mob{
+    display: none;
+}
+
+
+.menu-mob{
+    display: none;
+}
+.menu-mob li{
+    float: left;
+}
+.menu-mob li a{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
     text-align: center;
-    font: normal normal bold 24px/36px Source Han Sans TW;
-    letter-spacing: 0px;
-    color: #650300;
-    text-transform: uppercase;
-    opacity: 1;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
-.title{
-    width: 416px;
-    height: 72px;
-    margin-top: 80px;
-    margin-left: 752px;
-    margin-bottom: 48px;
-    font: var(--unnamed-font-style-normal) normal bold 48px/72px var(--unnamed-font-family-source-han-sans-tw);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-650300);
-    text-align: center;
-    font: normal normal bold 48px/72px Source Han Sans TW;
-    letter-spacing: 0px;
-    color: #650300;
-    text-transform: uppercase;
-    opacity: 1;
+
+.category{
+	background: #916000;
+	margin-bottom: 80px;
+}
+.category li{
+	padding-right: 28px;
+	padding-top: 14px;
+	padding-bottom: 7px;
+}
+.category a{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.category a:hover{
+	color: brown;
 }
 
-.inside2{
-    margin-left: 300px;
-    width: 1296px;
-    display: flex;
-    justify-content: space-around;
+.footer{
+	background: #916000;
+}
+.footer img{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer p{
+	font-size: 14px;
+	padding-left: 20px;
+	color: #FFFFFF;
+}
+.footer li{
+	margin-left: 31px;
+}
+.footer a{
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 5px 0px 5px 5px;
+}
+.footer a:hover{
+	color: rgb(116, 64, 4);;
+}
+.main{
+    margin-bottom: 30px;
+}
+.main img{
+    width: 100%;
+    padding-bottom: 30px;
 }
 
-.text2{
-    width: 416px;
-    height: 72px;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-aa0601);
-    text-align: center;
-    font: italic normal 900 48px/72px Roboto;
-    letter-spacing: 0px;
-    color: #AA0601;
-    text-transform: uppercase;
-    opacity: 1;
+.product-info{
     margin-bottom: 80px;
 }
-
-.box2{
-    width: 1920px;
-    height: 608px;
+.product-info h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.product-info h4{
+    padding-top: 32px;
+}
+.product-info form{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.product-info input{
+    border: 2px solid #916000;
+    height: 50px;
+    width: 50%;
+    border-radius: 4px 0px 0px 4px;
+    padding-left: 16px;
+}
+.product-info button{
+    border: 2px solid #916000;
+    width: 50%;
+    color: #FFFFFF;
+    background: #916000;
+    border-radius: 0px 4px 4px 0px;
+    font-size: 16px;
+}
+.product-info button:hover{
+    background: rgb(116, 64, 4);
+    border: 2px solid rgb(116, 64, 4);
+}
+.product-info a span{
+    color: #916000;
+}
+.product-info a:hover{
+    color:rgb(116, 64, 4);
+    font-weight: bold;
 }
 
-.title2{
-    margin-top: 80px;
-    margin-left: 805px;
+.shop-info h3{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.shop-info p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.mob-img{
+    display: none;
 }
